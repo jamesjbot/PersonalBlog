@@ -1,0 +1,158 @@
+﻿
+/* Reference Colors */
+/*
+    dark green
+    light green 2a9d8f
+    light yellow e9c46a
+    light orange f4a261
+    dark orange e76f51
+*/
+
+/*
+  light blue #e8ffff
+  baby blue #a6f6f1
+  teal #a6f6f1
+  black #213e3b
+*/
+
+/* Imports */
+@import "footer-style.css";
+@import "nav-bar.css";
+@import "blog-card.css";
+
+
+/* Global */
+* {
+    box-sizing: border-box;
+}
+
+/* Header */
+a {
+    text-decoration: none;
+    color: none;
+}
+/*@media (min-width: 768px,  ){
+
+}*/
+body {
+    padding: 1em;
+    margin: 25px;
+    border: 5px solid yellow;
+    /*background: #f4a261;*/
+    font-family: 'Helvetica', 'Arial', 'sans-serif';
+    width: 90%;
+    height: 100fr;
+    align-content: center;
+    justify-content: center;
+    background-color:
+}
+
+#pagetitle {
+    font-family: cursive;
+    font-stretch: extra-expanded;
+    font-size: 450%;
+    color: #a6f6f1;
+    text-shadow: 2px 2px #000;
+}
+
+#pagetagline {
+  color: #a6f6f1;
+  text-shadow: 2px 2px #000;
+}
+
+.grid-container {
+    box-sizing: border-box;
+    border-color: darkred;
+    border-width: 1px;
+    border-style: solid;
+    display: grid;
+    grid-template-columns: 80% 20%;
+    grid-template-rows: 300px 55px 1fr 55px;
+    grid-gap: 1vh;
+    grid-template-areas:
+        "head head"
+        "nav sidebar"
+        "ct sidebar"
+        "ft ft";
+    margin: 0vh;
+    line-height: normal;
+    padding: 10px;
+    width: 100%;
+    height: auto;
+    align-content: center; /*Main axis*/
+    justify-content: center; /*Cross axis*/
+}
+
+header {
+    grid-area: head;
+
+    text-align: center;
+    
+    /*
+    background: #e9c46a;
+    */
+    box-sizing: border-box;
+    max-width: 100%;
+    height: auto;
+
+    /*position: absolute;*/
+    /*top: 50%;
+    left: 50%;*/
+    /*transform: translate(-50%, -50%);*/
+    /*font-size: 18px
+    */
+    /*
+    width: 100%;
+    height: auto;
+    */
+    /*height: 700px;
+    */
+    background-image: url('../images/badlands-slim.jpg');
+    /*background-size: auto auto;
+    */
+    background-repeat: no-repeat;
+    /*
+    background-size: cover;
+    background-size: 100% 100%;
+    */
+    /*
+    width: 100%;
+    height: auto;
+    */
+    background-attachment: fixed;
+    object-fit: contain;
+}
+
+/* TODO should this be here then if This is actually nav-bar now*/
+.headerx {
+    /*
+    background-color: #f4a261;
+    grid-area: head;
+    border: 2px solid #2a9d8f;
+    text-align: center;
+    */
+}
+
+/* TODO Remove references to content */
+.content {
+}
+
+.sidebar {
+    grid-area: sidebar;
+    background: lightgreen;
+    padding: 1rem;
+}
+
+.articles-container {
+    /*display: flex;
+    flex-direction: column;*/
+    border: 2px solid darkgreen;
+    padding: 20px
+}
+
+.verbage {
+    color: #264653;
+    font-family: 'Helvetica', 'Arial', 'sans-serif';
+    text-align: left;
+    padding: 1em;
+}
