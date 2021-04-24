@@ -3,11 +3,10 @@ body {
 }
 
 img.blog-card {
-    /*margin-left: 20px;
-    margin-bottom: 20px;*/
     float: right;
     vertical-align:  middle;
-    border-radius: 25px;
+    border-radius: 25%;
+    margin: 10px;
 }
 
 p.article-picture {
@@ -29,10 +28,4 @@ p.article-picture {
    /* On mouse-over, add a deeper shadow */
 .card:hover {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,1);
-}
-
-/* Add some padding inside the card container */
-.container {
-    grid-area: ct;
-    padding: 2px 16px;
 }

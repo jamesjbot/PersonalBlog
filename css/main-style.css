@@ -1,25 +1,7 @@
 ﻿
-/* Reference Colors */
-/*
-    dark green
-    light green 2a9d8f
-    light yellow e9c46a
-    light orange f4a261
-    dark orange e76f51
-*/
-
-/*
-  light blue #e8ffff
-  baby blue #a6f6f1
-  teal #a6f6f1
-  black #213e3b
-*/
-
 /* Imports */
-@import "footer-style.css";
 @import "nav-bar.css";
-@import "blog-card.css";
-
+/*@import "blog-card.css";*/
 
 /* Global */
 * {
@@ -40,6 +22,7 @@ body {
     border: 5px solid yellow;
     /*background: #f4a261;*/
     font-family: 'Helvetica', 'Arial', 'sans-serif';
+    font-size: large;
     width: 90%;
     height: 100fr;
     align-content: center;
@@ -47,15 +30,47 @@ body {
     background-color:
 }
 
+figcaption {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+h1 {
+
+}
+
+h2 {
+
+}
+
+header {
+    grid-area: head;
+    text-align: center;
+    box-sizing: border-box;
+    max-width: 100%;
+    height: auto;
+    padding: 0;
+    background-image: url('../images/badlands-slim.jpg');
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    object-fit: contain;
+}
+
+img {
+  margin-top: 1rem;
+}
+
+
 #pagetitle {
     font-family: cursive;
     font-stretch: extra-expanded;
-    font-size: 450%;
+    font-size: 3.5rem;
     color: #a6f6f1;
     text-shadow: 2px 2px #000;
 }
 
 #pagetagline {
+  font-size: 2.0rem;
   color: #a6f6f1;
   text-shadow: 2px 2px #000;
 }
@@ -67,7 +82,7 @@ body {
     border-style: solid;
     display: grid;
     grid-template-columns: 80% 20%;
-    grid-template-rows: 300px 55px 1fr 55px;
+    grid-template-rows: 35vh 7vh 1fr 7vh;
     grid-gap: 1vh;
     grid-template-areas:
         "head head"
@@ -83,58 +98,20 @@ body {
     justify-content: center; /*Cross axis*/
 }
 
-header {
-    grid-area: head;
-
-    text-align: center;
-    
-    /*
-    background: #e9c46a;
-    */
-    box-sizing: border-box;
-    max-width: 100%;
-    height: auto;
-
-    /*position: absolute;*/
-    /*top: 50%;
-    left: 50%;*/
-    /*transform: translate(-50%, -50%);*/
-    /*font-size: 18px
-    */
-    /*
-    width: 100%;
-    height: auto;
-    */
-    /*height: 700px;
-    */
-    background-image: url('../images/badlands-slim.jpg');
-    /*background-size: auto auto;
-    */
-    background-repeat: no-repeat;
-    /*
-    background-size: cover;
-    background-size: 100% 100%;
-    */
-    /*
-    width: 100%;
-    height: auto;
-    */
-    background-attachment: fixed;
-    object-fit: contain;
+article {
+  display: flex;
+  flex-direction: column;
 }
 
-/* TODO should this be here then if This is actually nav-bar now*/
-.headerx {
-    /*
-    background-color: #f4a261;
-    grid-area: head;
+/* Footer Styling */
+.footer {
+    background-color: #e76f51;
+    grid-area: ft;
     border: 2px solid #2a9d8f;
-    text-align: center;
-    */
 }
 
-/* TODO Remove references to content */
 .content {
+    grid-area: ct
 }
 
 .sidebar {
