@@ -1,12 +1,15 @@
 <!DOCTYPE html>
 <html>
 <head>
+
+  <meta charset='utf-8' />
+
+  <!--For the social media icons-->
   <script src='https://kit.fontawesome.com/7c8522fb5c.js' crossorigin='anonymous'></script>
   <link rel='stylesheet' href='../css/main-style.css' />
   <link rel='stylesheet' href='../css/article.css'/>
-  <link rel='stylesheet' href='../css/recipe.css'/>
-  <link rel='stylesheet' href='../css/article-footer.css' />
-  <meta charset='utf-8' />
+  <link rel='stylesheet' href='../css/recipe-style.css'/>
+
   <!-- TODO Make sure you need all these -->
   <link rel='stylesheet' href='http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css'>
   <link href='http://fonts.googleapis.com/css?family=Cookie' rel='stylesheet' type='text/css'>
@@ -34,16 +37,15 @@
 
 
     <!--  -->
-    <div class=''>
+    <div class='sidebar'>
       <h3><u>Recent Articles</u></h3>
       <p><b>Dumplings</b></p>
-      <p>Scallion Pancakes</p>
-      <p><i>Badlands Trip</i></p>
+      <p><a href='./scallionpancake.html'>Scallion Pancakes</a></p>
+      <p><a href='./badlands.html'><i>Badlands Trip</i></a></p>
     </div>
 
-
     <!-- All Articles -->
-    <main>
+    <main class='content'>
 
       <article>
         <div class='social_share'>
@@ -64,6 +66,16 @@
             <i>A software developer, amateur cook, and adventurer.</i>
           </div>
         </div>
+        <img src='../images/potstickers.jpg'/>
+        <figcaption>A plate of Potstickers</figcaption>
+        <h3>History</h3>
+        This classic recipe is the best beginner's recipe for dumplings.
+        <br>The earliest historical reference to the
+        dumpling harkens back to 225 AD, when General Zhuge Liang
+        was said to have dammed up a marsh with dumplings on his war campaign.
+        <br>I've never wasted my dumplings to damn up a marsh, but they taste great for
+        family gatherings, special events, or an everyday appetizer.
+        You can freeze them precooked and they will keep for 3 months.
         <h3>Ingredients</h3>
         <ul>
           <li>1/2 a head of Napa Cabbage</li>
@@ -92,53 +104,14 @@
           <li>Then add dumplings and fry for 2 minutes; until the edges of the bottoms start to show golden brown</li>
           <li>Drop 3-4 tablespoons of cold water into the pot and cover to steam for 5 minutes</li>
           <li>When steam has boiled away fry alittle longer 1-2 minutes till the dumplings easily release from the pan <em>(do not force them off after steaming; they will tear)</em></li>
-          <li>Let cool for a few minutes and enjoy with soy sauce or eat them plain,</li>
+          <li>An alternative to frying them would be to boil them for 10 minutes</li>
+          <li>Either way, let cool for a few minutes and enjoy with soy sauce or eat them plain,</li>
         </ol>
+        <img src='../images/jiaozi.jpg'/>
+        <figcaption>A plate of Jiao Zi</figcaption>
       </article>
     </main>
-    <!-- old close grid container-->
-
-
   <!-- Footer -->
-  <!--
-  <footer class='footer-distributed'>
-
-    <!--<footer >-->
-<!--
-    <div class='footer-left'>
-
-      <h3>James Jongs <span>Engineering and Design</span></h3>
-      <p class='footer-links'>Copyright &#169; 2020 James Jongsurasithiwat All Rights Reserved</p>
-    </div>
-
-
-    <div class='footer-center'>
-
-      <div>
-        <i class='fa fa-map-marker'></i>
-        <p><span>169 California Drive</span> Buffalo, NY</p>
-      </div>
-
-      <div>
-        <i class='fa fa-phone'></i>
-        <p>716-555-2686</p>
-      </div>
-
-    </div>
-
-    <div class='footer-right'>
-
-      <p class='footer-company-about'>
-        <span>About James Jongs</span>
-        An iOS, Java, IOT, Automotive electronics engineer and designer.
-      </p>
-
-      <div class='footer-icons'>
-        <a href='https://www.linkedin.com/in/jamesjongs/'><i class='fab fa-linkedin'></i></a>
-        <a href='https://github.com/jamesjbot'><i class='fab fa-github-square'></i></a>
-      </div>
-
-    </div> -->
     <div class='footer verbage'>
       <form>
         <label for='email'>
@@ -150,8 +123,5 @@
     </div>
   </footer>
   </div><!--close the grid container-->
-  <!--script src='https://platform.linkedin.com/in.js' type='text/javascript'>lang: en_US</script-->
-  <!-- TODO Change the url to this page-->
-  <!--script type='IN/Share' data-url='https://www.linkedin.com'></script-->
 </body>
 </html>

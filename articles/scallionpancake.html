@@ -1,13 +1,124 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <head>
-    <meta charset="utf-8" />
-    <title></title>
+  <meta charset='utf-8' />
+  <!--For the social media icons-->
+  <script src='https://kit.fontawesome.com/7c8522fb5c.js' crossorigin='anonymous'></script>
+  <link rel='stylesheet' href='../css/main-style.css' />
+  <link rel='stylesheet' href='../css/article.css'/>
+  <link rel='stylesheet' href='../css/recipe-style.css'/>
+
+  <!-- TODO Make sure you need all these -->
+  <link rel='stylesheet' href='http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css'>
+  <link href='http://fonts.googleapis.com/css?family=Cookie' rel='stylesheet' type='text/css'>
+  <link rel='preconnect' href='https://fonts.gstatic.com'>
+  <link href='https://fonts.googleapis.com/css2?family=Monoton&display=swap' rel='stylesheet'>
+  <title>A blog about cooking and travel</title>
 </head>
+
 <body>
-    <h1>Scallion pancakes are delicious</h1>
+  <div class='grid-container'>
+    <header>
+      <h1 id='pagetitle'>On The Road and<br>In The Kitchen</h1>
+      <h2 id='pagetagline'>A blog about cooking and travel</h2>
+    </header>
 
-    
+    <!-- Navigation -->
+    <nav>
+      <ul class='navbar'>
+        <li><a href='../index.html'>Home</a></li>
+        <li><a>About</a></li>
+        <li><a href=''>Cooking</a></li>
+        <li><a href=''>Travel</a></li>
+      </ul>
+    </nav>
 
+
+    <!--  -->
+    <div class='sidebar'>
+      <h3><u>Recent Articles</u></h3>
+      <p><b>Scallion Panckaes</b></p>
+      <p><a href='./classicdumpling.html'/>Dumplings</p>
+      <p href='./badlands.html'><i>Badlands Trip</i></p>
+    </div>
+
+    <!-- All Articles -->
+    <main class='content'>
+      <article>
+        <div class='social_share'>
+          <h3 class='social_share'>Share</h3>
+          <a href=''><i class='fab fa-twitter-square social_share_buttons'></i></a>
+          <a href=''><i class='fab fa-facebook-square social_share_buttons'></i></a>
+          <a href=''><i class='fab fa-linkedin social_share_buttons'></i></a>
+        </div>
+        <div class='title_author_byline'>
+          <title>
+            Scallion Pancake Recipe
+          </title>
+          By James Jongs<br>
+          Software Developer @
+          <i><strong>James Jongs Design and Engineering</strong><br></i>
+          <div class='avatar_div'>
+            <img class='avatar' src='../images/Avatar.jpg'/>
+            <i>A software developer, amateur cook, and adventurer.</i>
+          </div>
+        </div>
+        <img src='../images/finishedpancake.jpeg'/>
+        <figcaption>A plate of Scallion Pancakes</figcaption>
+        <h3>History</h3>
+        Scallion pancake is a savory pancake made from dough not batter like western pancake. It closely resembles a green onion paratha from Indian cuisine.
+        The ingredients are simple flour, water, salt, oil and scallions.
+        I remember making scallion pancakes with my mom on cold winter Saturdays. This savory treat is best enjoyed with a warm glass of sweetened soy milk.
+        <h3>Ingredients</h3>
+        <ul>
+          <li>5 stalks of green onion</li>
+          <li>2 cups of flour</li>
+          <li>1/2 teaspoon of salt</li>
+          <li>3/4 cup of water</li>
+          <li>2 tablespoons of sesame oil (optional)</li>
+          <li>Oil for frying</li>
+        </ul>
+
+        <h3>Instructions</h3>
+
+        <ol>
+          <li>Chop all the scallions into 1/8 or 1/4 inch rounds.</li>
+          <li>Mix salt, flour and water, adjust water and flour to get a dough that just comes together but is still very pliable and can be rolled.</li>
+          <li>Roll out the dough into a 1/8 inch thick sheet.</li>
+          <li>Brush sesame oil or regular oil across the dough’s surface.</li>
+          <li>Spread the scallions evenly across the surface.</li>
+          <li>Roll up the dough lengthwise.</li>
+          <li>Cut 2 inch sections from the long roll.</li>
+          <li>Now roll out the 2 inch sections individually to about 1/4 inch thickness. (You will get green onion piercing thru the skin it’s ok they will char nicely adding more flavor).</li>
+          <li>You can stack the pancakes and make it more layered or you can just cook the each 2" round individually (you will still have a few layers from the log rolling process).</li>
+
+          <img src='../images/rawpancake.jpg'/>
+          <figcaption>Stacked Uncooked Pancakes</figcaption>
+
+          <li>Now put 2 tablespoons of oil in a pan and fry the pancakes on medium low heat.</li>
+          <li>When the pancakes eventually brown about 2-3 minute flip them over and fry for another 2-3 minutes.</li>
+          <li>Remove from pan and slightly salt again.</li>
+          <li>Then let the excess oil drain on a rack or paper towel.</li>
+          <li>Tear you pancakes apart and enjoy the flaky layers of scallion.</li>
+        </ol>
+        <img src='../images/friedpancake.jpg'/>
+        <figcaption>Pancake after 2minutes of frying</figcaption>
+      </article>
+    </main>
+    <!-- old close grid container-->
+
+
+    <!-- Footer -->
+    <div class='footer verbage'>
+      <form>
+        <label for='email'>
+          Subscribe For Updates
+        </label>
+        <input type='text' id='email' value='jdoe@email.com' />
+        <input type='submit' value='Subscribe' />
+      </form>
+    </div>
+  </footer>
+</div><!--close the grid container-->
 </body>
 </html>
