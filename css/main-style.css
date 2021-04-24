@@ -26,7 +26,6 @@ body {
     height: 100fr;
     align-content: center;
     justify-content: center;
-    background-color:
 }
 
 figcaption {
@@ -107,7 +106,7 @@ article {
 
 .sidebar {
     grid-area: sidebar;
-    background: linear-gradient(135deg, lightgreen, 10%, #a6f6f1);
+    background: linear-gradient(225deg, #264653, 10%, lightgreen, #a6f6f1);
     padding: 1rem;
 }
 
