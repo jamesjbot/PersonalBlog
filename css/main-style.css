@@ -116,7 +116,7 @@ article {
 
 .sidebar {
     grid-area: sidebar;
-    background: lightgreen;
+    background: linear-gradient(135deg, lightgreen, 10%, #a6f6f1);
     padding: 1rem;
 }
 
