@@ -5,7 +5,7 @@ body {
 img.blog-card {
     float: right;
     vertical-align:  middle;
-    border-radius: 25%;
+    border-radius: 15%;
     margin: 10px;
 }
 
@@ -21,7 +21,7 @@ p.article-picture {
     transition: 0.3s;
     border-radius: 25px;
     margin: 2rem;
-    padding: 3rem;
+    padding: 2rem;
 
 }
 
