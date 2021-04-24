@@ -1,137 +1,139 @@
-﻿
+
 <!doctype html>
 <html>
 <head>
-    <link rel="stylesheet" href="css/main-style.css" />
-    <link rel='stylesheet' href='css/homepage-style.css'/>
-    <link rel='stylesheet' href='css/blog-card.css'/>
-    <link rel='stylesheet' href='css/blog-entry.css'/>
-    <meta charset="utf-8" />
-    <title>A blog about cooking and travel</title>
+  <link rel="stylesheet" href="css/main-style.css" />
+  <link rel='stylesheet' href='css/homepage-id-style.css'/>
+  <link rel='stylesheet' href='css/blog-card.css'/>
+  <link rel='stylesheet' href='css/blog-entry.css'/>
+  <meta charset="utf-8" />
+  <title>A blog about cooking and travel</title>
 </head>
 
 
 <!-- Body -->
 <body>
-    <div class="grid-container">
-        <header>
-            <h1 id="pagetitle">On The Road and<br>In The Kitchen</h1>
-            <h2 id="pagetagline">A blog about cooking and travel</h2>
-        </header>
+  <div class="grid-container">
+    <header>
+      <h1 id="pagetitle">On The Road and<br>In The Kitchen</h1>
+      <h2 id="pagetagline">A blog about cooking and travel</h2>
+    </header>
 
-        <!-- Navigation -->
-        <nav>
-        <div class='navbar'>
-            <a href='./index.html'>Home</a>
-            <a href="#">About</a>
-              <div class='dropdown'>
-                <button class='dropbutton'>Cooking</button>
-                <div class='dropdown-content'>
-                  <a href='./articles/classicdumpling.html'>Dumplings</a>
-                  <a href='./articles/scallionpancake.html'>Scallion Panckaes</a>
-                </div>
-              </div>
-              <div class='dropdown'>
-                <button class='dropbutton'>Travel</button>
-                <div class='dropdown-content'>
-                  <a href='./articles/badlands.html'>Badlands</a>
-                </div>
-              </div>
+    <!--TODO Animated Linear Gradients-->
+
+    <!-- Navigation -->
+    <nav>
+      <div class='navbar'>
+        <a href='./index.html'>Home</a>
+        <a href="#">About</a>
+        <div class='dropdown'>
+          <button class='dropbutton'>Cooking</button>
+          <div class='dropdown-content'>
+            <a href='./articles/classicdumpling.html'>Dumplings</a>
+            <a href='./articles/scallionpancake.html'>Scallion Panckaes</a>
+          </div>
         </div>
-        </nav>
-
-
-        <!-- Sidebar -->
-        <div class="sidebar">
-            <h3><u>Recent Articles</u></h3>
-            <p><b>Dumplings</b></p>
-            <p>Scallion Pancakes</p>
-            <p><i>Badlands Trip</i></p>
+        <div class='dropdown'>
+          <button class='dropbutton'>Travel</button>
+          <div class='dropdown-content'>
+            <a href='./articles/badlands.html'>Badlands</a>
+          </div>
         </div>
+      </div>
+    </nav>
 
 
-        <!-- All Articles -->
-
-        <div class="articles-container">
-
-            <!-- Dumpling Article -->
-            <a href="classicdumpling.html">
-                <div class="verbage card">
-                    <article>
-                        <h3>Recipe for a classic pan fried dumpling</h3>
-                        <div class='all_card_content'>
-                          <div class='blurb_container'>
-                            <p class="article-pure">
-                              This classic recipe is the best beginner's recipe for dumplings.
-                              <br>The earliest historical reference to the
-                              dumpling harkens back to 225 AD, when Zhuge Liang
-                              was said to have dammed up a marsh on his war campaign.
-                            </p>
-                            <form action='./articles/classicdumpling.html'>
-                              <input type='submit' value='See the recipe'/>
-                            </form>
-                          </div>
-                          <div class='image_container'>
-                              <figure>
-                                <!--TODO No style in the html-->
-                                <img class="blog-card"
-                                 src="./images/dumplings.jpg"
-                                 alt="Pure of a plate of chinese dumplings"
-                                 width="200" height="100" />
-                                 <figcaption>A plate of Potstickers</figcaption>
-                              </figure>
-                          </div>
-                        </div>
-                    </article>
-                </div>
-            </a>
-
-            <div class="verbage card">
-                <h3>Scallion Pancakes</h3>
-                Lorem ipsum dolor sit amet, consetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                <form ion="./articles/scallionpancake.html" target="_self">
-                    <input type="submit" value="Read more..."/>
-                </form>
-            </div>
-
-            <!-- First Lorem Ipsum Article -->
-            <div class="verbage card">
-                <h3>Lorem Ipsum Lorem Ipsum</h3>
-                Lorem ipsum dolor sit amet, consetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi archito beatae vitae da sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?
-            </div>
-
-            <!-- Second Lorem Ipsum Article -->
-
-
-            <div class="verbage card">
-                <h3>Lorem Ipsum Lorem Ipsum</h3>
-                Lorem ipsum dolor sit amet, consetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-            </div>
-
-            <div class="verbage card">
-                <h3>Lorem Ipsum Lorem Ipsum</h3>
-                Lorem ipsum dolor sit amet, consetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-            </div>
-
-            <div class="verbage card">
-                <h3>Lorem Ipsum Lorem Ipsum</h3>
-                Lorem ipsum dolor sit amet, consetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-            </div>
-        </div>
-
-        <!-- Footer -->
-        <div class="footer verbage">
-            <form>
-                <label for="email">
-                    Subscribe For Updates
-                </label>
-                <input type="text" id="email" value="jdoe@email.com" />
-                <input type="submit" value="Subscribe" />
-            </form>
-        </div>
-
+    <!-- Sidebar -->
+    <div class="sidebar">
+      <h3><u>Recent Articles</u></h3>
+      <p><a href='./articles/classicdumpling.html'>Dumplings</a></p>
+      <p><a href='./articles/scallionpancake.html'>Scallion Pancakes</a></p>
+      <p><a href='./articles/badlands.html'><i>Badlands Trip</i></a></p>
     </div>
+
+
+    <!-- All Articles -->
+
+    <div class="articles-container">
+
+      <!-- Dumpling Article -->
+      <a href="classicdumpling.html">
+        <div class="verbage card">
+          <article>
+            <h3>Recipe for a classic pan fried dumpling</h3>
+            <div class='all_card_content'>
+              <div class='blurb_container'>
+                <p class="article-pure">
+                  This classic recipe is the best beginner's recipe for dumplings.
+                  <br>The earliest historical reference to the
+                  dumpling harkens back to 225 AD, when Zhuge Liang
+                  was said to have dammed up a marsh on his war campaign.
+                </p>
+                <form action='./articles/classicdumpling.html'>
+                  <input type='submit' value='See the recipe'/>
+                </form>
+              </div>
+              <div class='image_container'>
+                <figure>
+                  <!--TODO No style in the html-->
+                  <img class="blog-card"
+                  src="./images/dumplings.jpg"
+                  alt="Pure of a plate of chinese dumplings"
+                  width="200" height="100" />
+                  <figcaption>A plate of Potstickers</figcaption>
+                </figure>
+              </div>
+            </div>
+          </article>
+        </div>
+      </a>
+
+      <div class="verbage card">
+        <h3>Scallion Pancakes</h3>
+        Scallion pancake is a savory pancake made from dough not batter like western pancake. It closely resembles a green onion paratha from Indian cuisine.
+        <form ion="./articles/scallionpancake.html" target="_self">
+          <input type="submit" value="Read more..."/>
+        </form>
+      </div>
+
+      <!-- First Lorem Ipsum Article -->
+      <div class="verbage card">
+        <h3>Lorem Ipsum Lorem Ipsum</h3>
+        Lorem ipsum dolor sit amet, consetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi archito beatae vitae da sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?
+      </div>
+
+      <!-- Second Lorem Ipsum Article -->
+
+
+      <div class="verbage card">
+        <h3>Lorem Ipsum Lorem Ipsum</h3>
+        Lorem ipsum dolor sit amet, consetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      </div>
+
+      <div class="verbage card">
+        <h3>Lorem Ipsum Lorem Ipsum</h3>
+        Lorem ipsum dolor sit amet, consetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      </div>
+
+      <div class="verbage card">
+        <h3>Lorem Ipsum Lorem Ipsum</h3>
+        Lorem ipsum dolor sit amet, consetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer verbage">
+      <form>
+        <label for="email">
+          Subscribe For Updates
+        </label>
+        <input type="text" id="email" value="jdoe@email.com" />
+        <input type="submit" value="Subscribe" />
+      </form>
+    </div>
+
+  </div>
 
 </body>
 
