@@ -1,6 +1,6 @@
 ﻿
 /* Imports */
-@import "nav-bar.css";
+@import 'nav-bar.css';
 
 /* Global */
 * {
@@ -75,10 +75,10 @@ img {
     grid-template-rows: 35vh 7vh 1fr 7vh;
     grid-gap: 1vh;
     grid-template-areas:
-        "head head"
-        "nav sidebar"
-        "ct sidebar"
-        "ft ft";
+        'head head'
+        'nav sidebar'
+        'ct sidebar'
+        'ft ft';
     margin: 0vh;
     line-height: normal;
     padding: 10px;
@@ -100,21 +100,23 @@ article {
     border: 2px solid #2a9d8f;
 }
 
-.content {
-    grid-area: ct
+.content-container {
+  /*display: flex;
+  flex-direction: column;*/
+    border: 2px solid darkgreen;
+    padding: 1rem;
+    grid-area: ct;
+}
+
+.image-container {
+  width: 40%;
+  height: auto;
 }
 
 .sidebar {
     grid-area: sidebar;
     background: linear-gradient(225deg, #264653, 10%, lightgreen, #a6f6f1);
     padding: 1rem;
-}
-
-.articles-container {
-    /*display: flex;
-    flex-direction: column;*/
-    border: 2px solid darkgreen;
-    padding: 20px
 }
 
 .verbage {
