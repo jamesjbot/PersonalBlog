@@ -25,12 +25,23 @@
 
     <!-- Navigation -->
     <nav>
-      <ul class='navbar'>
-        <li><a href='../index.html'>Home</a></li>
-        <li><a>About</a></li>
-        <li><a href=''>Cooking</a></li>
-        <li><a href=''>Travel</a></li>
-      </ul>
+      <div class='navbar'>
+        <a href='../index.html'>Home</a>
+        <a href="#">About</a>
+        <div class='dropdown'>
+          <button class='dropbutton'>Cooking</button>
+          <div class='dropdown-content'>
+            <a href='./articles/classicdumpling.html'>Dumplings</a>
+            <a href='./articles/scallionpancake.html'>Scallion Panckaes</a>
+          </div>
+        </div>
+        <div class='dropdown'>
+          <button class='dropbutton'>Travel</button>
+          <div class='dropdown-content'>
+            <a href='./articles/badlands.html'>Badlands</a>
+          </div>
+        </div>
+      </div>
     </nav>
 
 
