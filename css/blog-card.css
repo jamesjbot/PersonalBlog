@@ -5,7 +5,7 @@
   align-items: center;
 }﻿
 
-img.blog-card .image_container {
+img.blog-card .image-container {
     float: right;
     vertical-align:  middle;
     border-radius: 50px;
@@ -32,7 +32,7 @@ p.article-picture {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,1);
 }
 
-.blurb_and_button_container {
+.blurb-and-button-container {
   display: flex;
   flex-direction: column;
 }

@@ -1,5 +1,5 @@
 
-.all_card_content {
+.all-card-content {
   display: flex;
   flex-direction: row;
   grid-area: ct;

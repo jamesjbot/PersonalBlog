@@ -28,7 +28,7 @@ body {
     background-size: contain;
 }
 
-.social_share {
+.social-share {
   display: flex;
   flex-direction: row;
   margin: 1rem;
@@ -37,20 +37,20 @@ body {
   /*border: red 1px solid;*/
 }
 
-.social_share h3 {
+.social-share h3 {
   margin: .2rem;
 }
 
-.social_share i {
+.social-share i {
   font-size: 250%;
 }
 
-.social_share_buttons {
+.social-share-buttons {
   /*border: green 1px solid;*/
   margin: .2rem;
 }
 
-.title_author_byline {
+.title-author-byline {
   /*border: orange 6px solid;*/
   line-height: 1.5rem;
   margin-bottom: 1rem;
@@ -64,7 +64,7 @@ body {
   margin-right: 1vh;
 }
 
-.avatar_div {
+.avatar-div {
   display: flex;
   flex-direction: row;
   align-items: center;
