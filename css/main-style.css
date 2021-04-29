@@ -98,8 +98,6 @@ header {
 }
 
 .content-container {
-  /*TODO REMOVE display: flex;
-  flex-direction: column;*/
   grid-area: ct;
   padding: 1rem;
 }
