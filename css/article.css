@@ -15,10 +15,7 @@ body {
     flex-direction: column;
     min-height: 100vh;
     padding: 1em;
-    margin: 1vh;
-    /*TODO REMOVE Replace Font*/
-    font-family: 'Helvetica', 'Arial', 'sans-serif';
-    width: 90%;
+    font-family: 'Krona One', sans-serif;
     height: 100fr;
     align-content: center;
     justify-content: center;

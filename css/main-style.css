@@ -114,16 +114,11 @@ header {
 /* Basic Grid Container */
 .grid-container {
   box-sizing: border-box;
-  border-color: darkred;
-  border-width: 1px;
-  border-style: solid;
+  border: 3px solid black;
   display: grid;
-  grid-gap: 2em;
-
-  margin: 0vh;
+  grid-gap: 0;
+  margin: 0;
   line-height: normal;
-  padding: 10px;
-  /*width: 100%;*/
   height: auto;
   align-content: center; /*Main axis*/
   justify-content: center; /*Cross axis*/
@@ -218,7 +213,7 @@ header {
     'ft ft';
     grid-template-columns: 80% 20%;
     grid-template-rows: 20vh 7vh 1fr 7vh;
-    grid-gap: 0em;
+    grid-gap: 0;
   }
 }
 
@@ -252,16 +247,15 @@ header {
   .grid-container {
     display: grid;
     grid-template-columns: 80% 20%;
-    grid-template-rows: 35vh 7vh 1fr 7vh;
-    grid-gap: 1vh;
+    grid-template-rows: 36vh 7vh 1fr 7vh;
+    grid-gap: 0;
     grid-template-areas:
     'head head'
     'nav sidebar'
     'ct sidebar'
     'ft ft';
-    margin: 0vh;
-    line-height: normal;
-    padding: 10px;
+    margin: 0;
+    padding: 0;
     width: 100%;
     height: auto;
     align-content: center; /*Main axis*/
