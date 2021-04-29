@@ -49,11 +49,11 @@ body {
 }
 
 .avatar {
-  height: 5vh;
+  height: 2em;
   border-radius: 50%;
   float: left;
-  margin-left: 1vh;
-  margin-right: 1vh;
+  margin-left: 1em;
+  margin-right: 1em;
 }
 
 .avatar-div {
