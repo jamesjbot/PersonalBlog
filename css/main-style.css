@@ -98,6 +98,7 @@ header {
 }
 
 .content-container {
+  margin-top: 1em;
   grid-area: ct;
   padding: 1rem;
 }
