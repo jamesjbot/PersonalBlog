@@ -3,7 +3,7 @@
 @import 'nav-bar.css';
 
 /* Global */
-* {
+*, *::before, *::after {
   box-sizing: border-box;
 }
 
@@ -141,15 +141,15 @@ header {
   }
 
   .navbar a, .dropdown .dropbutton {
-    font-size: 1.5rem;
+    font-size: 1.0em;
   }
 
   #pagetitle {
-    font-size: 2.75vw;
+    font-size: 1em;
   }
 
   #pagetagline {
-    font-size: 2.0vw;
+    font-size: .5em;
   }
 
   .all-card-content {
@@ -163,6 +163,7 @@ header {
   .grid-container {
     display: grid;
     grid-template-columns: 100%;
+    grid-template-rows: autoflow;
     grid-template-areas:
     'head'
     'nav'
@@ -175,19 +176,19 @@ header {
 @media screen and (min-width: 800px) {
 
   .form-submit-button {
-    font-size: 1.5rem;
+    font-size: 2.0rem;
   }
 
   .navbar a, .dropdown .dropbutton {
-    font-size: 1.5rem;
+    font-size: 1em;
   }
 
   #pagetitle {
-    font-size: 3.5vw;
+    font-size: 1em;
   }
 
   #pagetagline {
-    font-size: 2.0vw;
+    font-size: 1rem;
   }
 
   .all-card-content {
@@ -211,7 +212,6 @@ header {
     'ct sidebar'
     'ft ft';
     grid-template-columns: 80% 20%;
-    grid-template-rows: 20vh 7vh 1fr 7vh;
     grid-gap: 0;
   }
 }
@@ -224,7 +224,7 @@ header {
   }
 
   .navbar a, .dropdown .dropbutton {
-    font-size: 2.5rem;
+    font-size: 2.5em;
   }
 
   .sidebar {
@@ -236,17 +236,16 @@ header {
   }
 
   #pagetitle {
-    font-size: 3.5vw;
+    font-size: 2em;
   }
 
   #pagetagline {
-    font-size: 1.25vw;
+    font-size: 1em;
   }
 
   .grid-container {
     display: grid;
     grid-template-columns: 80% 20%;
-    grid-template-rows: 36vh 7vh 1fr 7vh;
     grid-gap: 0;
     grid-template-areas:
     'head head'
