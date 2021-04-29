@@ -2,10 +2,16 @@
 .all-card-content {
   display: flex;
   flex-direction: row;
-  grid-area: ct;
 }
 
 #dumpling-image {
+  width: 100%;
+  height: 100%;
+  border-radius: 25px;
+  margin-bottom: 1rem;
+}
+
+#scallion-image {
   width: 100%;
   height: 100%;
   border-radius: 25px;
