@@ -145,11 +145,11 @@ header {
   }
 
   #pagetitle {
-    font-size: 1em;
+    font-size: 1.5em;
   }
 
   #pagetagline {
-    font-size: .5em;
+    font-size: 1.0em;
   }
 
   .all-card-content {
@@ -184,11 +184,11 @@ header {
   }
 
   #pagetitle {
-    font-size: 1em;
+    font-size: 1.4em;
   }
 
   #pagetagline {
-    font-size: 1rem;
+    font-size: 1em;
   }
 
   .all-card-content {
@@ -197,7 +197,7 @@ header {
 
   .sidebar {
     display: block;
-    font-size: 1.0rem;
+    font-size: 1.0em;
   }
 
   body {
@@ -224,11 +224,11 @@ header {
   }
 
   .navbar a, .dropdown .dropbutton {
-    font-size: 2.5em;
+    font-size: 1.5em;
   }
 
   .sidebar {
-    font-size: 1.5rem;
+    font-size: 1.5em;
   }
 
   .all-card-content {
@@ -236,11 +236,11 @@ header {
   }
 
   #pagetitle {
-    font-size: 2em;
+    font-size: 2.5em;
   }
 
   #pagetagline {
-    font-size: 1em;
+    font-size: 1.5em;
   }
 
   .grid-container {
