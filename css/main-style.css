@@ -23,8 +23,9 @@ body {
   margin: 25px;
   border: 5px solid yellow;
   /*background: #f4a261;*/
-  font-family: 'Helvetica', 'Arial', 'sans-serif';
-  font-size: large;
+  font-family: 'Krona One', sans-serif;
+  /*font-family: 'Helvetica', 'Arial', 'sans-serif';*/
+  font-size: 1rem;
   width: 90%;
   height: 100fr;
   align-content: center;
@@ -40,6 +41,16 @@ img {
   margin-top: 1rem;
 }
 
+.form-submit-button {
+  margin-top: 1rem;
+  background: #bbb;
+  border-style: outset;
+  border-color: #0066A2;
+  border-radius: 1rem;
+  box-shadow: 5px 5px 5px black;
+  padding: 0 2rem;
+}
+
 .image-container {
   width: 40%;
   height: auto;
@@ -47,21 +58,17 @@ img {
 
 .verbage {
   color: #264653;
-  font-family: 'Helvetica', 'Arial', 'sans-serif';
   text-align: left;
   padding: 1em;
 }
 
 #pagetitle {
   font-family: cursive;
-  font-stretch: extra-expanded;
-  font-size: 3.5rem;
   color: #a6f6f1;
   text-shadow: 2px 2px #000;
 }
 
 #pagetagline {
-  font-size: 2.0rem;
   color: #a6f6f1;
   text-shadow: 2px 2px #000;
 }
@@ -70,6 +77,10 @@ img {
 
 header {
   grid-area: head;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   text-align: center;
   box-sizing: border-box;
   max-width: 100%;
@@ -79,6 +90,7 @@ header {
   background-repeat: no-repeat;
   background-attachment: scroll;
   object-fit: contain;
+  border: 3px solid orange;
 }
 
 /* Footer Styling */
@@ -92,7 +104,7 @@ header {
   /*display: flex;
   flex-direction: column;*/
   grid-area: ct;
-  border: 2px solid darkgreen;
+  border: 5px solid darkgreen;
   padding: 1rem;
 }
 
@@ -100,31 +112,9 @@ header {
   grid-area: sidebar;
   background: linear-gradient(225deg, #264653, 10%, lightgreen, #a6f6f1);
   padding: 1rem;
+  overflow: hidden;
 }
 
-/* TODO REMOVE
-.grid-container {
-box-sizing: border-box;
-border-color: darkred;
-border-width: 1px;
-border-style: solid;
-display: grid;
-grid-template-columns: 80% 20%;
-grid-template-rows: 35vh 7vh 1fr 7vh;
-grid-gap: 1vh;
-grid-template-areas:
-'head head'
-'nav sidebar'
-'ct sidebar'
-'ft ft';
-margin: 0vh;
-line-height: normal;
-padding: 10px;
-width: 100%;
-height: auto;
-align-content: center; /*Main axis*/
-/*justify-content: center; /*Cross axis*/
-/*} */
 /* Basic Grid Container */
 .grid-container {
   box-sizing: border-box;
@@ -144,7 +134,7 @@ align-content: center; /*Main axis*/
 }
 
 /* Don't display anything under a certain size */
-@media screen and (min-width: 1px) and (max-width: 299px) {
+@media screen and (min-width: 1px) and (max-width: 359px) {
   .grid-container {
     display: none;
   }
@@ -154,10 +144,32 @@ align-content: center; /*Main axis*/
 }
 
 /* Phone */
-@media screen and (min-width: 300px) {
+@media screen and (min-width: 360px) {
+
+  .form-submit-button {
+    font-size: 1rem;
+  }
+
+  .navbar a, .dropdown .dropbutton {
+    font-size: 1.5rem;
+  }
+
+  #pagetitle {
+    font-size: 2.75vw;
+  }
+
+  #pagetagline {
+    font-size: 2.0vw;
+  }
+
+  .all-card-content {
+    flex-direction: column;
+  }
+
   .sidebar {
     display: none;
   }
+
   .grid-container {
     display: grid;
     grid-template-columns: 100%;
@@ -170,14 +182,35 @@ align-content: center; /*Main axis*/
 }
 
 /* Tablet */
-@media screen and (min-width: 700px) {
+@media screen and (min-width: 800px) {
+
+  .form-submit-button {
+    font-size: 1.5rem;
+  }
+
+  .navbar a, .dropdown .dropbutton {
+    font-size: 1.5rem;
+  }
+
+  #pagetitle {
+    font-size: 3.5vw;
+  }
+
+  #pagetagline {
+    font-size: 2.0vw;
+  }
+
+  .all-card-content {
+    flex-direction: column;
+  }
 
   .sidebar {
     display: block;
+    font-size: 1.0rem;
   }
 
   body {
-    font-size: small;
+    font-size: 1.5rem;
   }
 
   .grid-container {
@@ -188,13 +221,38 @@ align-content: center; /*Main axis*/
     'ct sidebar'
     'ft ft';
     grid-template-columns: 80% 20%;
-    grid-template-rows: 35vh 7vh 1fr 7vh;
+    grid-template-rows: 20vh 7vh 1fr 7vh;
+    grid-gap: 0em;
   }
-  max-width: 1099px;
 }
 
 /* Web */
 @media screen and (min-width: 1100px) {
+
+  .form-submit-button {
+    font-size: 2rem;
+  }
+
+  .navbar a, .dropdown .dropbutton {
+    font-size: 2.5rem;
+  }
+
+  .sidebar {
+    font-size: 1.5rem;
+  }
+
+  .all-card-content {
+    flex-direction: row;
+  }
+
+  #pagetitle {
+    font-size: 3.5vw;
+  }
+
+  #pagetagline {
+    font-size: 1.25vw;
+  }
+
   .grid-container {
     display: grid;
     grid-template-columns: 80% 20%;
