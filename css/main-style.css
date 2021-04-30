@@ -1,7 +1,8 @@
 
 /* Imports */
 @import 'nav-bar.css';
-
+@import 'blog-card.css';
+@import 'homepage-id-style.css';
 /* Global */
 *, *::before, *::after {
   box-sizing: border-box;
@@ -35,6 +36,12 @@ figcaption {
 
 img {
   margin-top: 1rem;
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
 }
 
 .form-submit-button {

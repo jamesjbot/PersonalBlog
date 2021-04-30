@@ -1,11 +1,11 @@
 
 
-ul {
+.ingredients ul {
   display: flex;
   flex-direction: column;
 }
 
-ol {
+.instructions ol {
   display: flex;
   flex-direction: column;
 }
