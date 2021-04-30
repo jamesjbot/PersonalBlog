@@ -6,6 +6,10 @@ title {
   line-height: 1em;
 }
 
+figure img {
+  width: 100%;
+}
+
 figcaption {
   margin-top: 1rem;
 }
